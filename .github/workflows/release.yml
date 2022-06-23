@@ -29,7 +29,8 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version-file: 'go.mod'
-          cache: true
+          # cache is failing with errors like "Error: Could not get cache folder paths."
+          cache: false
       -
         name: Import GPG key
         id: import_gpg
