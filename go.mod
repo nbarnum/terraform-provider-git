@@ -1,6 +1,6 @@
 module github.com/fourplusone/terraform-provider-git
 
-go 1.18
+go 1.13
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.2 // indirect
